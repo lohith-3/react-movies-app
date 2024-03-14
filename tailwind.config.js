@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      flex: {
+        2: "0 1 50%",
+        3: "1 0 auto",
+      },
+    },
   },
   plugins: [],
 };
